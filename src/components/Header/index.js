@@ -5,7 +5,7 @@ import wdalogo from '../../Images/wdalogo.svg'
 
 const Header = props=>(
     
-   <nav className="navbar navbar-expand-lg navbar-fixed-top  navbar-danger nav1">
+   <nav className="navbar navbar-expand-lg navbar-fixed-top  navbar-dark nav1">
   <a  href="/"><img src={wdalogo} className="wdalogo" /></a>
   <a class="navbar-text" href="#">WDA SPACES</a>
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
