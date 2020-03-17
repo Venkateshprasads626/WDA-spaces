@@ -1,0 +1,64 @@
+.clients-section{
+    width: 100%;
+    height: 1100px;
+    margin-bottom: 8%; 
+}
+
+.ImageContainer div{
+    display: inline-block;
+}
+.ImageContainer{
+    margin: 0 auto;
+    width: 800px;
+}
+
+ .ImageContainer .filter{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}  
+
+@media screen and (max-width: 560px) {
+    .ImageContainer{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+
+    }
+    .clients-section{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 8%; 
+    }
+    .filter{
+        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+ .filter{
+     margin-right: 1rem;
+     margin-left: 1rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+ }
+}
+
+@media screen and (min-width: 992px) {
+    .ImageContainer{
+        margin: 0 auto;
+        width: 900px;
+    }
+    .filter{
+        margin-right: 1.5rem;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

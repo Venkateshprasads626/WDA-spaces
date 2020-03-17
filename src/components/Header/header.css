@@ -1,0 +1,66 @@
+/* .nav1{
+    height: 130px;
+}
+.banner-image{
+    width: 100%;
+    position: relative;
+    margin-top: -10%;
+    z-index: -1;
+}
+.nav1 li a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.navbar-brand{
+    color: white !important;
+    margin-left: 2%;
+} */
+/* 
+
+I will show you how to change a height of a standard Bootstrap navbar.
+
+*/
+.navbar-text{
+  color: white !important;
+}
+.navbar{
+  padding: 1.5rem 1rem;
+  background: rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width: 992px) {
+  .navbar li a{
+    color: white;
+    font-family: Poppins;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .navbar-text{
+    color: white !important;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .navbar{
+    padding: 1.2rem 1rem;
+  }
+  .navbar li a{
+    color: white;
+    font-family: Poppins;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .navbar li{
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .navbar-text{
+    color: white !important;
+  }
+
+}
