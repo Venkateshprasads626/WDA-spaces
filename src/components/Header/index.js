@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
+import $ from 'jquery'
 import './header.css'
 import wdalogo from '../../Images/wdalogo.svg'
 
 
-const Header = props=>(
-    
-   <nav className="navbar navbar-expand-lg navbar-fixed-top  navbar-dark nav1">
-  <a  href="/"><img src={wdalogo} className="wdalogo" /></a>
+class Header extends Component{
+
+    render() {
+        return(
+            <nav className="navbar navbar-expand-lg navbar-fixed-top  navbar-dark nav1">
+            <a class="navbar-brand" href="#">
+                <img src={wdalogo} className="wdalogo" />
+             </a>
   <a class="navbar-text" href="#">WDA SPACES</a>
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler ml-auto onclick" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -24,7 +29,7 @@ const Header = props=>(
            <a href="#">RECOGNITION</a>
         </li>
         <li class="nav-item">
-            <a href="">ABOUT</a>
+            <a href="#">ABOUT</a>
         </li>
         <li class="nav-item">
             <a href="#">CONTACT</a>
@@ -33,9 +38,8 @@ const Header = props=>(
   </div>
 
 </nav> 
-       
-
-
-);
+        );
+    }
+}
 
 export default Header

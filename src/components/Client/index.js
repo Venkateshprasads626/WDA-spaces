@@ -28,7 +28,7 @@ import logo24 from '../../Images/logo24.svg'
 class Client extends Component{
     render() {
         return(
-            <div>
+            <div className="client-div">
                 <h2 style={{fontFamily: "Poppins",fontWeight:"bold",textAlign: "center",fontSize: "20px"}}>Our Clients</h2>
                 <div className="clients-section">
                     <div className="ImageContainer">

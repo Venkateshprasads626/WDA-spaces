@@ -39,6 +39,9 @@
         height: 100%;
         margin-bottom: 8%; 
     }
+    .client-div{
+        margin-top: 10%;
+    }
     .filter{
         margin-right: 1rem;
         margin-left: 2rem;
